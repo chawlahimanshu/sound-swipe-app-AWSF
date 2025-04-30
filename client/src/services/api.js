@@ -1,5 +1,7 @@
 import { useEffect, useState, useRef } from "react";
-export const API_BASE_URL = "http://localhost:3001";
+REACT_APP_API_BASE_URL="https://soundswipe-backend-env.eba-d85q52qx.us-east-1.elasticbeanstalk.com"
+
+
 
 // recommendation model
 export const getSampleTracks = async (count = 20) => {
